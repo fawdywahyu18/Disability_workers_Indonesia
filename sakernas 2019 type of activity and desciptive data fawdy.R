@@ -6,7 +6,7 @@ library(writexl)
 library(foreign)
 library(stargazer)
 
-setwd("E:/Kerja/Project Prakasa/2021/Sakernas")
+setwd("")
 data_raw <- read_dta(file="sakernas_20198_dta.dta")
 
 # Creating household ID
